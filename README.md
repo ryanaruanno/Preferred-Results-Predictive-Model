@@ -9,3 +9,5 @@ This project determines to classify pitches as perferred results: either a swing
 - The cleaned_data. feather file contains all of the cleaned data used for the machine learning models.
 - The data_cleaning.ipynb file contains the code used to clean all of the raw data used for this project.
 - The machine_learning.ipynb file contains the code used to classify and predict samples based through a neural network model and a random forest model.
+
+Currently working on: Differences in upscaling the minority class, stratifying the train/test split, and downsampling the majority class for the random forest classifier. Currently, upsampling the majority class predicts the results the best with the highest macro F1 scores.
